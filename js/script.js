@@ -36,24 +36,3 @@ window.onscroll = function() {
     cover3.style.backgroundPositionY = -parallelx3 * 0.5 + 'px';
     cover4.style.backgroundPositionY = -parallelx4 * 0.5 + 'px';
 }
-
-$("#myForm").validate({
-    rules: {
-        name: {
-            minlength: 2,
-            required: true
-        }
-
-    },
-    messages: {
-        name: {
-            minlength: 'Atleast Name 2 Characters',
-            required: 'Please Enter Your Name'
-        }
-
-    },
-
-    submitHandler: function(form) {
-        $(form).submit();
-    }
-});
