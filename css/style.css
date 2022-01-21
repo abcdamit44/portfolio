@@ -210,3 +210,18 @@
         transition: 500ms;
     }
 }
+
+@media(max-width:767px) {
+    .navbar-brand {
+        width: 75%;
+    }
+    .nav-link {
+        text-align: center;
+    }
+    .coverSection,
+    .AboutSection,
+    .ProjectSection,
+    .ContactSection {
+        height: auto;
+    }
+}
